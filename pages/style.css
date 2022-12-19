@@ -1,0 +1,22 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+#container > div
+{
+  width: 50px;
+  height: 50px;
+}    
+#container
+{
+display: grid;
+margin-top: 20px;
+grid-template-columns: repeat(16, 50px);
+grid-template-rows: repeat(16,50px);
+justify-content: center;
+}
+.backgroundChange 
+{
+    background-color: red;
+}
