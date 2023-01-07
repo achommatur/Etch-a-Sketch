@@ -1,12 +1,11 @@
 * 
 {
-<<<<<<< HEAD
 padding: 0;
 margin: 0;
 }
 .sketchpad1
 {
-    height: 550px;
+    height: 500px;
     width: 700px;
     display: grid;
     grid-template-columns: repeat(16,1fr);    
@@ -15,7 +14,7 @@ margin: 0;
 }
 .sketchpad2
 {
-    height: 550px;
+    height: 500px;
     width: 700px;
     display: grid;
     grid-template-columns: repeat(32,1fr);    
@@ -24,32 +23,38 @@ margin: 0;
 }
 .sketchpad3
 {
-    height: 550px;
+    height: 500px;
     width: 700px;
     display: grid;
     grid-template-columns: repeat(64,1fr);    
     grid-template-rows: repeat(64,1fr);    
     gap: 1px;
 }
-=======
-    margin: 0;
-    padding: 0;
-}
-#container > div
+
+.flexboxContainer 
 {
-  width: 50px;
-  height: 50px;
-}    
-#container
-{
-display: grid;
-margin-top: 20px;
-grid-template-columns: repeat(16, 50px);
-grid-template-rows: repeat(16,50px);
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
 }
-.backgroundChange 
+.middle
 {
-    background-color: red;
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
 }
->>>>>>> bed253e3e26391870d85744b1e809dcc99fe2a7f
+.controls 
+{
+    margin-top: 100px; 
+    display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: column;
+}
+.title
+{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
